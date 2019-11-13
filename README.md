@@ -36,6 +36,14 @@
    </td>
   </tr>
   <tr>
+   <td>Check if a service is running
+   </td>
+   <td><code>systemctl <strong>is-active</strong> {x}</code>
+   </td>
+   <td><code>service {x} status</code>
+   </td>
+  </tr>
+  <tr>
    <td>Install service
    </td>
    <td><code>systemctl <strong>enable</strong> {x}</code>
