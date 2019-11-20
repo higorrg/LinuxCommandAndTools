@@ -140,6 +140,22 @@
    </td>
   </tr>
   <tr>
+   <td>Set default target to start in graphical target (like run level 5)
+   </td>
+   <td><code>systemctl set-default graphical.target</code>
+   </td>
+    <td><code>init 5</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Set default target to not start in graphical target (like run level 3)
+   </td>
+   <td><code>systemctl set-default multi-user.target</code>
+   </td>
+    <td><code>init 3</code>
+   </td>
+  </tr>
+  <tr>
    <td>Follow messages as they appear
    </td>
    <td><strong><code>journalctl -f</code></strong>
