@@ -228,11 +228,13 @@
    </td>
   </tr>
   <tr>
-   <td>Analyze boot critical path to graphic
-   </td>
-   <td><strong><code>systemd-analyze critical-chain graphical.target</code></strong>
-   </td>
-   <td>
-   </td>
+   <td>Analyze boot critical path to graphic</td>
+   <td><strong><code>systemd-analyze critical-chain graphical.target</code></strong></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td>Analyze and debug system manager</td>
+   <td><strong><code>systemd-analyze blame</code></strong></td>
+   <td></td>
   </tr>
 </table>
