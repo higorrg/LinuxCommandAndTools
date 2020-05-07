@@ -36,7 +36,7 @@
    </td>
   </tr>
   <tr>
-   <td>Edit a service
+   <td>Edit a service (drop-in override)
    </td>
    <td><code>systemctl <strong>edit</strong> {x}</code>
    </td>
