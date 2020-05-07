@@ -36,6 +36,14 @@
    </td>
   </tr>
   <tr>
+   <td>Edit a service
+   </td>
+   <td><code>systemctl <strong>edit</strong> {x}</code>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
    <td>Check if a service is running
    </td>
    <td><code>systemctl <strong>is-active</strong> {x}</code>
